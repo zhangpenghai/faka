@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试vue</title>
+    <link rel="stylesheet" type="text/css" href="./css/mystyle.css">
+    <script src="./js/vue.js"></script>
+</head>
+
+
+<body >
+    <!--tou-->
+    <header>
+
+        <div class="container">
+            <ul>
+                <li><a href="/">首页</a></li>
+                <li><a href="/orderquery">订单查询</a></li>
+                <li><a href="/company/contact" target="_blank">投诉此商家</a></li>
+            </ul>
+            <a href="//wpa.qq.com/msgrd?v=1&amp;uin=368115741&amp;site=a8tg.com.com&amp;menu=yes" target="_blank" class="qq_btn"><img src="https://www.1001ka.cn/static/muban/He/img/qq.png" alt="">联系卖家</a>
+        </div>
+    </header>
+    <form>
+        <!--商品选择box-->
+        <div class="container main_box" id="app" >
+
+            <div class="my_box" style="height:auto; line-height:24px; font-size:14px; padding:10px;border: 1px solid rgba(230,152,0,0.4)">
+                <div class="my_right" style="width: calc(100% - 8px);color:#55cfff;">
+                    <font size="4">
+                        <strong>商品说明</strong> ： <span id="remark"> {{message}}</span>
+                    </font>
+                </div>
+            </div>
+            <div class="my_box">
+                <style>
+                    select{
+                        width: 100%;
+                        height: 40px;
+                    }
+                </style>
+                <div class="my_left">
+                    商品分类：
+                </div>
+                <div class="my_right" >
+                    <select>
+                        <option value="0">请选择大区</option>
+                        <option value="">电信区</option>
+                        <option value="">网通区</option>
+                    </select>
+                </div>
+            </div>
+            <!--商品名称-->
+            <div class="my_box">
+                <style>
+                    select{
+                        width: 100%;
+                        height: 40px;
+                    }
+                </style>
+                <div class="my_left">
+                    商品名称：
+                </div>
+                <div class="my_right" >
+                    <select>
+                        <option value="0"></option>
+                        <option value="">艾欧尼亚</option>
+                        <option value="">祖安</option>
+                    </select>
+                </div>
+            </div>
+            <!--商品单价-->
+            <div class="my_box">
+                <style>
+                    select{
+                        width: 100%;
+                        height: 40px;
+                    }
+                </style>
+                <div class="my_left">
+                    商品价格：
+                </div>
+                <div class="my_right" >
+                    <span class="big_text">100</span>元
+                </div>
+            </div>
+            <!--购买数量-->
+            <div class="my_box">
+
+                <div class="my_left">
+                    购买数量：
+                </div>
+                <div class="my_right">
+                    <input class="phone_num" name="quantity" onkeyup="changequantity2()" type="text" value="1">
+
+                </div>
+            </div>
+            <!--联系方式-->
+            <div class="my_box">
+                <style>
+                    select{
+                        width: 100%;
+                        height: 40px;
+                    }
+                </style>
+                <div class="my_left">
+                    联系方式：
+                </div>
+                <div class="my_right" >
+                    <input class="phone_num" onmouseout="checkcontact2()" name="contact" type="text" placeholder="推荐填写手机号或QQ号 订单查询的重要凭证!">
+                </div>
+            </div>
+            <div class="my_box" style="height:auto; font-size:18px; margin-bottom:0 ; padding:0 10px;color:#e69800;background: #fff;border: none"> 应付总额：<font class="f-e69800"><b class="tprice">0.00</b>元</font></div>
+
+
+
+            <!--支付确认-->
+
+                    <div class="pay_box">
+                        <div class="pay_menu">
+                            <div class="pay checked1">扫码支付</div>
+                        </div>
+                    </div>
+                    <div class="pay_list1">
+                        <input type="hidden" value="1">
+                        <input type="hidden" value="2">
+                        <input type="hidden" value="3">
+                        <label class="lab3 checked2">
+                            <input type="radio" style="display: none;border: 0" checked><img src="https://www.1001ka.cn/static/app/images/icon_zfb.jpg">
+                        </label>
+                        <label class="lab3">
+                            <input type="radio" style="display: none;border: 0" ><img src="https://www.1001ka.cn/static/app/images/icon_wx.jpg">
+                        </label>
+                    </div>
+                    <div>
+                        <button type="submit" class="check_pay">确认支付</button>
+                    </div>
+
+
+
+
+
+        </div>
+        <div class="foot my_left">尾部</div>
+    </form>
+
+
+</body>
+<script>
+    var app =new Vue({
+        //窗口绑定
+        el:"#app",
+        //数据封装
+        data:{
+            message:"hello word!"
+        }
+    });
+
+
+
+</script>
+</html>

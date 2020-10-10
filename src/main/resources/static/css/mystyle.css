@@ -1,0 +1,296 @@
+body{
+   /* background-image: url(../image/newxitong_18.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;*/
+
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+    letter-spacing: 1.2px;
+    background: url(../image/newxitong_18.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.hover{
+    font-size: larger;
+    background-color: darkorange;
+}
+.main_box{
+    padding: 30px;
+    background: rgba(0,0,0,.4);
+    border: 1px solid rgba(0,0,0,.6);
+    border-radius: 4px;
+}
+.choose_good_form {
+    width: 670px;
+    float: left;
+    border-right: 1px solid rgba(255,255,255,.1);
+    padding-right: 60px;
+}
+.my_box {
+    height: 48px;
+    line-height: 48px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    clear: both;
+}
+div {
+    display: block;
+}
+element.style {
+    height: auto;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid rgba(230,152,0,0.4);
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+.banner {
+    height: 180px;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(0,0,0,.4);
+    border: 1px solid rgba(0,0,0,.6);
+    position: relative;
+    border-radius: 4px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pay_box {
+    float: left;
+    border: 1px solid rgba(255,255,255,.1);
+    overflow: hidden;
+    width: calc(100% - 40px);
+    padding: 20px;
+    border-radius: 3px;
+}
+.pay_menu {
+    height: 50px;
+    line-height: 50px;
+    background: rgba(255,255,255,.2);
+    overflow: hidden;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #fff;
+}
+.checked1 {
+    background: #e69800;
+    color: #fff;
+}
+.pay {
+    float: left;
+    height: 50px;
+    padding: 0 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pay_list1, .pay_list2 {
+    padding: 20px 0 0;
+    border-top: 0;
+}
+input[type="hidden" i] {
+    display: none;
+    appearance: initial;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+}
+.lab3 {
+    display: inline-block;
+    width: 157px;
+    padding: 16px 6px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 6px 20px 0;
+    transition: ease .2s;
+    border: 1px solid transparent;
+}
+.lab3 input[type=radio] {
+    display: none;
+}
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: radio;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+.check_pay {
+    display: block;
+    width: 180px;
+    line-height: 48px;
+    height: 48px;
+    text-align: center;
+    color: #fff;
+    background: #e69800;
+    border: 0;
+    border-radius: 3px;
+    margin: 40px auto 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button {
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.checked2 {
+    border: 1px solid rgba(230,152,0,.6);
+}
+.foot {
+    height: 80px;
+    line-height: 80px;
+    background: #313131;
+    min-width: 100%;
+    margin-top: 60px;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+}
+.my_right {
+    position: relative;
+    width: calc(100% - 126px);
+    display: inline-block;
+    padding: 0 4px;
+    color: #fff;
+}
+
+Style Attribute {
+    width: calc(100% - 8px);
+    color: #55cfff;
+}
+.my_left {
+    float: left;
+    height: 48px;
+    width: 118px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+.my_right select {
+    height: 42px;
+    padding: 0 8px;
+    background: 0 0;
+    background-color: #333;
+    border: 1px solid rgba(255,255,255,.2);
+    width: 546px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+}
+.big_text {
+    font-size: 18px;
+    color: #e69800;
+}
+input[type="text" i] {
+
+    padding: 1px 2px;
+}
+input {
+    height: 42px;
+    padding: 0 8px;
+    background: 0 0;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,.2);
+    width: 546px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+}
+
+header li {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    margin-right: 100px;
+    font-size: 16px;
+    color: #fff;
+}ul, li, p, h1, h2, h3, h4, h5, h6 {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }li {
+      display: list-item;
+      text-align: -webkit-match-parent;
+  }ul {
+       list-style-type: disc;
+   }
+header {
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    min-width: 1200px;
+    height: 70px;
+    background-attachment: fixed;
+}
+.qq_btn {
+    position: absolute;
+    right: 0;
+    display: block;
+    background: #e69800;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+header li a {
+    display: block;
+    color: #fff;
+}a {
+     text-decoration: none;
+     text-align: center;
+     cursor: pointer;
+     font-style: unset;
+     font-size: 24px;
+
+ }
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}ul, li, p, h1, h2, h3, h4, h5, h6 {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
